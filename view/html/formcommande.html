@@ -1,0 +1,23 @@
+
+	<form name="ajout" action="index.php?page=order&action={action}DB" class="form-vertical" method="post">
+		<fieldset>
+		<legend>Ajout d'une commande</legend>
+			<div class="form-group">
+				<label for="id">id</label>
+				<input type="text" id="id" name="id" class="form-control" value="{id}" readonly/>
+			</div>
+			<div class="form-group">
+				<label for="date">date</label>
+				<input type="date" id="date" name="date" class="form-control" value="{date}" required/>
+			</div>
+			<div class="form-group">
+				<label for="montantHT">MontantHT</label>
+				<input type="text" id="montantHT" name="montantHT" class="form-control" value="{montantHT}" required/>
+			</div>
+			<div class="form-group">
+				<label for="idClient">idClient</label>
+				<select name="idClient" class="form-control">{listeIdClient}</select>
+			</div>
+				<input type="submit">
+		</fieldset>
+</form>

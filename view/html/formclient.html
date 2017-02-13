@@ -1,0 +1,27 @@
+
+	<form name="ajout" action="index.php?page=customer&action={action}DB" class="form-vertical" method="post">
+		<fieldset>
+		<legend>Ajout d'une commande</legend>
+			<div class="form-group">
+				<label for="idClient">idClient</label>
+				<input type="text" id="idClient" name="idClient" class="form-control" value="{idClient}" readonly/>
+			</div>
+			<div class="form-group">
+				<label for="societe">societe</label>
+				<input type="text" id="societe" name="societe" class="form-control" value="{societe}" required/>
+			</div>
+			<div class="form-group">
+				<label for="adresse">adresse</label>
+				<input type="text" id="adresse" name="adresse" class="form-control" value="{adresse}" required/>
+			</div>
+			<div class="form-group">
+				<label for="cp">cp</label>
+				<input type="text" id="cp" name="cp" class="form-control" value="{cp}" required/>
+			</div>
+			<div class="form-group">
+				<label for="ville">ville</label>
+				<input type="text" id="ville" name="ville" class="form-control" value="{ville}" required/>
+			</div>
+				<input type="submit">
+		</fieldset>
+</form>
