@@ -1,6 +1,8 @@
 # ProjetGestionCommandes
 Ce petit projet Web a été codé sous PHP(procédural) et avec une interface issue de Bootstrap.
 
+Il a été crée lors d'une session de formation dispensé par le CEFii (centre de formation privé à Angers).
+
 Il permet de gérer une liste de clients ainsi qu'une liste de commandes.
 
 Ce projet a été crée sur le modèle MVC (Model View Controller).
